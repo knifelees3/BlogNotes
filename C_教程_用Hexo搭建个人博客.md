@@ -6,6 +6,8 @@ tags:
 categories:
 - 技术
 ---
+
+![](https://raw.githubusercontent.com/knifelees3/my_pictures/master/picgoup/my-logo.png)
 ## Motivation
 
 （闲扯，无关技术）
@@ -237,3 +239,14 @@ https://zhuanlan.zhihu.com/p/30836436
 Markdown插入图片，可以通过将图片一起上传到github，这样图片多了，每次发布都会比较慢，所以插入在线的图片最好，图床很多人推荐七牛云，我没有选择这种方式，而是创建了一个新的Repositories,专门用来存放图片，图片的图床地址可以通过在github下载图片得到。需要注意的是，自己的非常注意图片的命名分类，不然以后多了就会难以找到自己想要的图片了。
 
 以后有新的问题和心得也会在这篇文章里面持续更新。
+
+(2019 12 21 图床补充)
+
+这几日发现网络上免费的图床不是特别的多，常见的七牛云需要服务器备案，其他的一些sm.ms之类，没有尝试过，不清楚会不会突然被封。自己的博客是基于github的，要是github没了，自己的网站也就得换地方了。github的好处是容量没有限制，单个文件夹是1G一下，单个文件100M以下，对于我来说，完全足够了。
+
+咋网络搜索了一圈以后，发现用github做图床的不止我一个，通过学习[教程](https://www.jianshu.com/p/2756724a5dee), 知道还可以配合相关的工具，如[picgo](https://github.com/Molunerfinn/PicGo),实现非常方便的图片上传，我的配置如下图
+![配置界面](https://raw.githubusercontent.com/knifelees3/my_pictures/master/picgoup/20191221000804.png)
+
+详细的配置说用，可以参见[教程](https://www.jianshu.com/p/2756724a5dee)，我先不在此详细说明了。
+
+

@@ -32,6 +32,8 @@ load('filename')
 the mat file can only be opened in MATLAB, In order to allow other software to open the output file. We can save the file as txt or csv file. This can be done via csvread/cavwrite, textread/textwrite,dlmwrite/dlmread,And I recommend the dlm method
 
 ```matlab
+% read csv file via "csvread"
+data=csvread('<filename>',<begin row>,<begin column>);
 %Write matrix M to a file, 'myFile.txt', delimited by the tab character and using a precision of 3 significant digits
 dlmwrite('myFile.txt',M,'delimiter','\t','precision',3)
 %Export a matrix to a file named myfile.txt. Then, append an additional matrix to the file that is offset one row below the first

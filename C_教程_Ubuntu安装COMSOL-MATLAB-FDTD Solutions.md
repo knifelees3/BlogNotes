@@ -1,5 +1,5 @@
 ---
-title:   Ubuntu软件安装以及使用注意事项
+title:   Ubuntu安装COMSOL,MATLAB以及FDTD Solutions
 categories:
 - 技术
 tags:
